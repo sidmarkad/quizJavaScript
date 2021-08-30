@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(54, 235, 175);
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+#text, #btn{
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    margin: 20px;
+    padding: 15px;
+    border: none;
+}
+#text{
+    background: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+}
+#text:focus{
+    text-align: center;
+    outline: none;
+}
+#btn{
+    border-radius:50px;
+    color: rgb(54, 235, 175);
+    transition: 0.4s all;
+    cursor: pointer;
+}
+#btn:focus{
+   outline: none;
+   transform: translateY(-7px);
+}
+
+#user_name{
+    text-transform: capitalize;
+}
+
+#btn1{
+    display: block;
+    width: 30%;
+    font-size: 22px;
+    margin: 20px;
+    padding: 15px;
+    border: none;
+    border-radius:50px;
+    color: rgb(54, 235, 175);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+#btn1:hover{
+   outline: none;
+   transform: translateY(-4px);
+}
+
+.userName, .userPoints{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.userName{
+    font-size: 3rem;
+}
+.userPoints{
+    font-size: 2rem;
+}
+
+#name, #points{
+    color: rgb(51, 50, 50);
+    font-weight: bolder;
+    text-transform: capitalize;
+}
